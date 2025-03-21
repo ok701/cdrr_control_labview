@@ -1,6 +1,6 @@
 # CDRR for Supine Training
 
-This repository is for a cable driven rehabilitation robot designed specifically for supine training.
+This repository is for a Cable-Driven-Rehabilitation-Robot designed specifically for supine training. RBF Weights are updated by recieving RBF Weights.
 
 ## Robot Configuration
 

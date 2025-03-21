@@ -111,7 +111,6 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Motor Control" Type="Folder">
-			<Item Name="Motor Control Enhanced.vi" Type="VI" URL="../Motor Control/Motor Control Enhanced.vi"/>
 			<Item Name="Minimum Jerk Trajectory.vi" Type="VI" URL="../Motor Control/Minimum Jerk Trajectory.vi"/>
 			<Item Name="Analogue Read.vi" Type="VI" URL="../Motor Control/Analogue Read.vi"/>
 			<Item Name="PID.vi" Type="VI" URL="../Motor Control/PID.vi"/>
@@ -121,10 +120,9 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Development" Type="Folder">
 			<Item Name="Trigger.vi" Type="VI" URL="../Development/Trigger.vi"/>
-			<Item Name="DDS.vi" Type="VI" URL="../Communication/DDS.vi"/>
-			<Item Name="Control Freq Test.vi" Type="VI" URL="../Motor Control/Control Freq Test.vi"/>
-			<Item Name="RBF Graph.vi" Type="VI" URL="../Motor Control/RBF Graph.vi"/>
-			<Item Name="Speed Test.vi" Type="VI" URL="../Speed Test.vi"/>
+			<Item Name="DDS.vi" Type="VI" URL="../Development/DDS.vi"/>
+			<Item Name="Control Freq Test.vi" Type="VI" URL="../Development/Control Freq Test.vi"/>
+			<Item Name="Speed Test.vi" Type="VI" URL="../Development/Speed Test.vi"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
@@ -418,7 +416,9 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="shared_var.lvlib" Type="Library" URL="../shared_var.lvlib"/>
-		<Item Name="Main.vi" Type="VI" URL="../Motor Control/Main.vi"/>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="RBF Weights.vi" Type="VI" URL="../Motor Control/RBF Weights.vi"/>
+		<Item Name="Phi.vi" Type="VI" URL="../Motor Control/Phi.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
@@ -644,11 +644,15 @@ AddOutputFilter chunkFilter
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="LVDDS_library.lvlib" Type="Library" URL="/&lt;vilib&gt;/RTI DDS Toolkit/Library/LVDDS_library.lvlib"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="rtilvdds.dll" Type="Document" URL="/&lt;vilib&gt;/_RTI DDS Toolkit_internal_deps/rtilvdds.dll"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="RBF Graph.vi" Type="VI" URL="../Motor Control/RBF Graph.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
