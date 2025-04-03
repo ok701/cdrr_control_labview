@@ -422,7 +422,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Phi.vi" Type="VI" URL="../Motor Control/Phi.vi"/>
 		<Item Name="Main ver3.vi" Type="VI" URL="../Main ver3.vi"/>
 		<Item Name="Main v2.vi" Type="VI" URL="../Main v2.vi"/>
-		<Item Name="Main ver4.vi" Type="VI" URL="../Main ver4.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
