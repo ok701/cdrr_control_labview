@@ -1,14 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="21008000">
-	<Property Name="varPersistentID:{1C7D934A-E663-4D8B-A993-18B8739E2117}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/M1 position</Property>
-	<Property Name="varPersistentID:{346BF132-9497-4104-848A-744F7740F024}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Velocity1</Property>
-	<Property Name="varPersistentID:{46C34BE8-F5BC-4EF2-B4F7-E452F8D01617}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Trigger</Property>
-	<Property Name="varPersistentID:{5CAF5FCC-D4B1-4616-847C-E7373568C502}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Position1</Property>
-	<Property Name="varPersistentID:{6DEFC4D0-E7A6-44EB-8E18-75019994E880}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/RBF Weights</Property>
-	<Property Name="varPersistentID:{8EE3D72E-1458-41A1-9A0D-D87274593AAE}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Mes Tension</Property>
-	<Property Name="varPersistentID:{A1205799-D6A6-4673-8B7B-A6481765386F}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Velocity0</Property>
-	<Property Name="varPersistentID:{DCA0C3D6-884E-4E4D-930C-A7E9C7A9DC02}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/EE ref position</Property>
-	<Property Name="varPersistentID:{F3D5D41D-F4BD-4775-974E-774470ED045A}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Position0</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -24,8 +15,18 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="rtilvdds.dll" Type="Document" URL="/&lt;vilib&gt;/_RTI DDS Toolkit_internal_deps/rtilvdds.dll"/>
-				<Item Name="LVDDS_library.lvlib" Type="Library" URL="/&lt;vilib&gt;/RTI DDS Toolkit/Library/LVDDS_library.lvlib"/>
-				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="RTI DDS Advanced Writer Configuration.ctl" Type="VI" URL="/&lt;vilib&gt;/RTI DDS Toolkit/Types/RTI DDS Advanced Writer Configuration.ctl"/>
+				<Item Name="RTI DDS Advanced Reader Configuration.ctl" Type="VI" URL="/&lt;vilib&gt;/RTI DDS Toolkit/Types/RTI DDS Advanced Reader Configuration.ctl"/>
+				<Item Name="Advanced Create Reader.vi" Type="VI" URL="/&lt;vilib&gt;/RTI DDS Toolkit/VIs/Advanced Create Reader.vi"/>
+				<Item Name="AdvancedCreateReader_NumI32.vi" Type="VI" URL="/&lt;vilib&gt;/RTI DDS Toolkit/VIs/AdvancedCreateReader_NumI32.vi"/>
+				<Item Name="Advanced Create Writer.vi" Type="VI" URL="/&lt;vilib&gt;/RTI DDS Toolkit/VIs/Advanced Create Writer.vi"/>
+				<Item Name="AdvancedCreateWriter_NumI32.vi" Type="VI" URL="/&lt;vilib&gt;/RTI DDS Toolkit/VIs/AdvancedCreateWriter_NumI32.vi"/>
+				<Item Name="Write.vi" Type="VI" URL="/&lt;vilib&gt;/RTI DDS Toolkit/VIs/Write.vi"/>
+				<Item Name="Write_NumI32.vi" Type="VI" URL="/&lt;vilib&gt;/RTI DDS Toolkit/VIs/Write_NumI32.vi"/>
+				<Item Name="Read.vi" Type="VI" URL="/&lt;vilib&gt;/RTI DDS Toolkit/VIs/Read.vi"/>
+				<Item Name="Read_NumI32.vi" Type="VI" URL="/&lt;vilib&gt;/RTI DDS Toolkit/VIs/Read_NumI32.vi"/>
+				<Item Name="Release Writer.vi" Type="VI" URL="/&lt;vilib&gt;/RTI DDS Toolkit/VIs/Release Writer.vi"/>
+				<Item Name="Release Reader.vi" Type="VI" URL="/&lt;vilib&gt;/RTI DDS Toolkit/VIs/Release Reader.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
