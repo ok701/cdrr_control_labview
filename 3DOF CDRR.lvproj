@@ -1,28 +1,29 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="21008000">
-	<Property Name="varPersistentID:{029290C4-E3F0-404F-B4E7-46EF626F5C02}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/RBF Weights</Property>
-	<Property Name="varPersistentID:{16954531-F4CB-43DC-AED9-4FF9237C40E0}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Stop</Property>
-	<Property Name="varPersistentID:{2C08CEEB-F27D-4A54-BCEF-F4BB4D54D8AD}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Manual Control</Property>
-	<Property Name="varPersistentID:{2DEC1598-2691-4D1A-BE9F-23EAD299D88E}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Trigger</Property>
-	<Property Name="varPersistentID:{34E04900-FE00-435F-8B59-879C6F73AD9F}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Measured Tension</Property>
-	<Property Name="varPersistentID:{461832BE-8200-4E2C-B493-E2C7F068A516}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Encoder Position</Property>
-	<Property Name="varPersistentID:{4FA5AC3D-70B3-4231-AB7C-309A8B635C53}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Virtual Spring</Property>
-	<Property Name="varPersistentID:{57176E4A-BBDF-4966-8DFB-E2E7E1A24F3E}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Tension Control On</Property>
+	<Property Name="varPersistentID:{029290C4-E3F0-404F-B4E7-46EF626F5C02}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/RBF Weights</Property>
+	<Property Name="varPersistentID:{16954531-F4CB-43DC-AED9-4FF9237C40E0}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Stop</Property>
+	<Property Name="varPersistentID:{2C08CEEB-F27D-4A54-BCEF-F4BB4D54D8AD}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Manual Control</Property>
+	<Property Name="varPersistentID:{2DEC1598-2691-4D1A-BE9F-23EAD299D88E}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Trigger</Property>
+	<Property Name="varPersistentID:{34E04900-FE00-435F-8B59-879C6F73AD9F}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Measured Tension</Property>
+	<Property Name="varPersistentID:{461832BE-8200-4E2C-B493-E2C7F068A516}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Encoder Position</Property>
+	<Property Name="varPersistentID:{4FA5AC3D-70B3-4231-AB7C-309A8B635C53}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Virtual Spring</Property>
+	<Property Name="varPersistentID:{57176E4A-BBDF-4966-8DFB-E2E7E1A24F3E}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Tension Control On</Property>
 	<Property Name="varPersistentID:{5F717E51-D586-40DD-B30B-88783015A5B5}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Velocity0</Property>
-	<Property Name="varPersistentID:{70345BC0-1AA5-4385-9A97-919DB96FFB43}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Trajectory Radius</Property>
-	<Property Name="varPersistentID:{751FC19A-9699-45B4-8193-6E344AA1C53D}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Reference Tension</Property>
-	<Property Name="varPersistentID:{761A7222-39B9-492A-865D-3EBED8F9725F}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Simulated Position</Property>
-	<Property Name="varPersistentID:{A24C83E1-0DC1-4FE4-881B-5E78ADA7CF08}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Pos Output</Property>
-	<Property Name="varPersistentID:{A47EB859-0B02-49E4-930B-0BD46FD9356F}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/In Range Voltage Output</Property>
-	<Property Name="varPersistentID:{A994EC4A-2CC4-4404-8878-C31FE2F4B693}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Velocity Damping</Property>
+	<Property Name="varPersistentID:{70345BC0-1AA5-4385-9A97-919DB96FFB43}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Trajectory Radius</Property>
+	<Property Name="varPersistentID:{751FC19A-9699-45B4-8193-6E344AA1C53D}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Reference Tension</Property>
+	<Property Name="varPersistentID:{761A7222-39B9-492A-865D-3EBED8F9725F}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Simulated Position</Property>
+	<Property Name="varPersistentID:{9354E154-5C0B-4C99-8AAA-A3B1770EF4F9}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Measured Position</Property>
+	<Property Name="varPersistentID:{A24C83E1-0DC1-4FE4-881B-5E78ADA7CF08}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Pos Output</Property>
+	<Property Name="varPersistentID:{A47EB859-0B02-49E4-930B-0BD46FD9356F}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/In Range Voltage Output</Property>
+	<Property Name="varPersistentID:{A994EC4A-2CC4-4404-8878-C31FE2F4B693}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Velocity Damping</Property>
 	<Property Name="varPersistentID:{AFBC471F-66A8-42E4-85A9-BD1C5DED7D9E}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Velocity1</Property>
 	<Property Name="varPersistentID:{B713A66C-7FFE-4BD5-9BB6-5FBE88F1F7F9}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Position0</Property>
-	<Property Name="varPersistentID:{BF6DDFAA-D921-47CA-A322-63CAB3762201}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Reference Position</Property>
-	<Property Name="varPersistentID:{D6380386-0FE7-47AC-B595-96D9B2DB61C4}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Motors Configuration</Property>
-	<Property Name="varPersistentID:{D796AD4A-5ED8-4343-9E42-28CB8C7C9350}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Manual Control?</Property>
+	<Property Name="varPersistentID:{BF6DDFAA-D921-47CA-A322-63CAB3762201}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Reference Position</Property>
+	<Property Name="varPersistentID:{D6380386-0FE7-47AC-B595-96D9B2DB61C4}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Motors Configuration</Property>
+	<Property Name="varPersistentID:{D796AD4A-5ED8-4343-9E42-28CB8C7C9350}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Manual Control?</Property>
 	<Property Name="varPersistentID:{DDCB50FD-700A-4AA5-93A4-09A9F272EBC2}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Position1</Property>
-	<Property Name="varPersistentID:{E6C424D3-8FE8-44F6-A446-7DD887591E84}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Motors Speed</Property>
-	<Property Name="varPersistentID:{F0DED3BB-8178-49C7-8EF8-6F610AB6F691}" Type="Ref">/NI-cRIO-9047-01E2E2FC/shared_var.lvlib/Motors Enable</Property>
+	<Property Name="varPersistentID:{E6C424D3-8FE8-44F6-A446-7DD887591E84}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Motors Speed</Property>
+	<Property Name="varPersistentID:{F0DED3BB-8178-49C7-8EF8-6F610AB6F691}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Motors Enable</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -34,7 +35,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="PC main.vi" Type="VI" URL="../Host PC/PC main.vi"/>
+		<Item Name="Host Shared Variables.lvlib" Type="Library" URL="../Host Shared Variables.lvlib"/>
+		<Item Name="Host main.vi" Type="VI" URL="../Host PC/Host main.vi"/>
+		<Item Name="Circular Path.vi" Type="VI" URL="../Target cRIO/Circular Path.vi"/>
+		<Item Name="Test.vi" Type="VI" URL="../Target cRIO/Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="rtilvdds.dll" Type="Document" URL="/&lt;vilib&gt;/_RTI DDS Toolkit_internal_deps/rtilvdds.dll"/>
@@ -446,7 +450,7 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="shared_var.lvlib" Type="Library" URL="../shared_var.lvlib"/>
+		<Item Name="Shared Variables.lvlib" Type="Library" URL="../Shared Variables.lvlib"/>
 		<Item Name="Analogue Read.vi" Type="VI" URL="../Target cRIO/Analogue Read.vi"/>
 		<Item Name="Bi Directional Trajectory.vi" Type="VI" URL="../Target cRIO/Bi Directional Trajectory.vi"/>
 		<Item Name="dt to f.vi" Type="VI" URL="../Target cRIO/dt to f.vi"/>
@@ -454,7 +458,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Inverse Dynamics.vi" Type="VI" URL="../Target cRIO/Inverse Dynamics.vi"/>
 		<Item Name="Jacobian.vi" Type="VI" URL="../Target cRIO/Jacobian.vi"/>
 		<Item Name="Loadcell Match.vi" Type="VI" URL="../Target cRIO/Loadcell Match.vi"/>
-		<Item Name="Main.vi" Type="VI" URL="../Target cRIO/Main.vi"/>
+		<Item Name="Target Main.vi" Type="VI" URL="../Target cRIO/Target Main.vi"/>
 		<Item Name="Minimum Jerk Trajectory.vi" Type="VI" URL="../Target cRIO/Minimum Jerk Trajectory.vi"/>
 		<Item Name="Phi.vi" Type="VI" URL="../Target cRIO/Phi.vi"/>
 		<Item Name="RBF Graph.vi" Type="VI" URL="../Target cRIO/RBF Graph.vi"/>
@@ -463,7 +467,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Tension Control.vi" Type="VI" URL="../Target cRIO/Tension Control.vi"/>
 		<Item Name="Quadratic Programming.vi" Type="VI" URL="../Target cRIO/Quadratic Programming.vi"/>
 		<Item Name="Virtual Spring.vi" Type="VI" URL="../Target cRIO/Virtual Spring.vi"/>
-		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Target cRIO/Untitled Library 1.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
@@ -663,7 +666,6 @@ AddOutputFilter chunkFilter
 				<Item Name="DAQmx Timing (Burst Export Clock).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Burst Export Clock).vi"/>
 				<Item Name="DAQmx Timing (Pipelined Sample Clock).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Pipelined Sample Clock).vi"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
-				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
@@ -703,6 +705,9 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
+				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
+				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
