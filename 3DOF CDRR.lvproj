@@ -35,7 +35,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Host Shared Variables.lvlib" Type="Library" URL="../Host Shared Variables.lvlib"/>
 		<Item Name="Host main.vi" Type="VI" URL="../Host PC/Host main.vi"/>
 		<Item Name="Circular Path.vi" Type="VI" URL="../Target cRIO/Circular Path.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../Target cRIO/Test.vi"/>
@@ -467,6 +466,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Tension Control.vi" Type="VI" URL="../Target cRIO/Tension Control.vi"/>
 		<Item Name="Quadratic Programming.vi" Type="VI" URL="../Target cRIO/Quadratic Programming.vi"/>
 		<Item Name="Virtual Spring.vi" Type="VI" URL="../Target cRIO/Virtual Spring.vi"/>
+		<Item Name="Foward Kinematics.vi" Type="VI" URL="../Target cRIO/Foward Kinematics.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
