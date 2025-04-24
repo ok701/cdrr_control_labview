@@ -11,13 +11,13 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!T,Q!!!#%!A!!!!!!#!!^!#A!)5'^T;82J&lt;WY!!!Q!1!!"`````Q!!!!%!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="In Range Voltage Output" Type="Variable">
+	<Item Name="Host Running" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!\.Q!!!#%!A!!!!!!#!"&gt;!#A!16'^U97QA4X6U=(6U)#B7+1!!$!"!!!(`````!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!#%!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Manual Control" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -75,14 +75,6 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!V-1!!!#%!A!!!!!!#!"&amp;!#A!+2GFM&gt;'6S:71A?!!!$!"!!!(`````!!!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Pos Output" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"-3!!!!#%!A!!!!!!&amp;!!&gt;!#A!"7!!-!%!!!@````]!!!!(1!I!!6E!$!"!!!(`````!!)!#A"1!!)!!1!$!!%!"!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="RBF Weights" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -115,14 +107,6 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!L*Q!!!#%!A!!!!!!#!!&gt;!#A!"71!-!%!!!@````]!!!!"!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Stop" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#%!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="Tension Control On" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -153,7 +137,7 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!V-1!!!#%!A!!!!!!#!"&amp;!#A!+2GFM&gt;'6S:71A?!!!$!"!!!(`````!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#%!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Virtual Spring" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
