@@ -10,13 +10,16 @@ pos_log = []             # 위치 로그
 T_log = []               # 장력 로그
 
 # 파라미터들 (필요한 것만 남김)
-m = 0.1
-b = 0
-T_min = 20.0
-T_max = 70.0
-motor_pos = np.array([[-116, -100],
-                      [ 172, -100],
-                      [ 0.0,  114]])
+m = 1
+b = 5
+T_min = 0.0
+T_max = 100.0
+# motor_pos = np.array([[-1.160, -1.000],
+#                       [ 1.720, -1.000],
+#                       [ 0.00,  1.140]])
+motor_pos = np.array([[-1.200, -0.400],
+                      [ 1.660, -0.400],
+                      [ 0.00,  1.70]])
 # dt = 0.01
 
 # ------------------------
@@ -71,7 +74,7 @@ def step_simulation(T_in, dt_ms):
     F_real = J @ T_array - b * current_vel
 
     # 가속도
-    acc = F_real / m
+    acc = ( F_real / m )
 
     # 속도 업데이트
     current_vel += acc * dt
@@ -87,6 +90,6 @@ def step_simulation(T_in, dt_ms):
     time_index += 1
 
     # 결과 반환
-    return (float(current_pos[0]),
-            float(current_pos[1]),
+    return (float(current_pos[0] * 1000),
+            float(current_pos[1] * 1000),
             T_array.tolist())
