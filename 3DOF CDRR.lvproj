@@ -20,6 +20,7 @@
 	<Property Name="varPersistentID:{A674D145-4CBC-46A6-A2A7-E105E422648C}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Target Stop</Property>
 	<Property Name="varPersistentID:{A994EC4A-2CC4-4404-8878-C31FE2F4B693}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Velocity Damping</Property>
 	<Property Name="varPersistentID:{AFBC471F-66A8-42E4-85A9-BD1C5DED7D9E}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Right Velocity</Property>
+	<Property Name="varPersistentID:{B18FB95E-F78C-4401-B347-70FFE2EF7943}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Virtual Spring</Property>
 	<Property Name="varPersistentID:{B5A40631-18C5-4F5A-922E-A5DFF3A1E62E}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod7/Top Velocity</Property>
 	<Property Name="varPersistentID:{B713A66C-7FFE-4BD5-9BB6-5FBE88F1F7F9}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Left Position</Property>
 	<Property Name="varPersistentID:{B7520496-3A22-456D-9403-78F097FDAE45}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/RBF Weights</Property>
@@ -30,6 +31,7 @@
 	<Property Name="varPersistentID:{DDCB50FD-700A-4AA5-93A4-09A9F272EBC2}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Right Position</Property>
 	<Property Name="varPersistentID:{E4B1BB39-9551-47F6-B9EC-6FAF254CA2AE}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Trajectory Trigger</Property>
 	<Property Name="varPersistentID:{E6C424D3-8FE8-44F6-A446-7DD887591E84}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Motors Speed</Property>
+	<Property Name="varPersistentID:{EC508847-2660-4A59-9128-02EE52D9B0D2}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Jacobian</Property>
 	<Property Name="varPersistentID:{F0DED3BB-8178-49C7-8EF8-6F610AB6F691}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Motors Enable</Property>
 	<Property Name="varPersistentID:{F3EB0F2C-C4CF-4637-91AE-450E245A061F}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Reference Phase</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -45,50 +47,22 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Host main.vi" Type="VI" URL="../Host PC/Host main.vi"/>
 		<Item Name="Circular Path.vi" Type="VI" URL="../Target cRIO/Circular Path.vi"/>
-		<Item Name="Test.vi" Type="VI" URL="../Target cRIO/Test.vi"/>
 		<Item Name="ROS2 Read.vi" Type="VI" URL="../Host PC/ROS2 Read.vi"/>
 		<Item Name="ROS2 Close.vi" Type="VI" URL="../Host PC/ROS2 Close.vi"/>
 		<Item Name="ROS2 Write.vi" Type="VI" URL="../Host PC/ROS2 Write.vi"/>
 		<Item Name="ROS2 Start.vi" Type="VI" URL="../Host PC/ROS2 Start.vi"/>
+		<Item Name="Forward Dynamics.vi" Type="VI" URL="../Target cRIO/Forward Dynamics.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="rtilvdds.dll" Type="Document" URL="/&lt;vilib&gt;/_RTI DDS Toolkit_internal_deps/rtilvdds.dll"/>
 				<Item Name="LVDDS_library.lvlib" Type="Library" URL="/&lt;vilib&gt;/RTI DDS Toolkit/Library/LVDDS_library.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="RBF Graph.vi" Type="VI" URL="../Target cRIO/RBF Graph.vi"/>
 			<Item Name="Exclude Zero Noise.vi" Type="VI" URL="../Target cRIO/Exclude Zero Noise.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
