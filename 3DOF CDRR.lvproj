@@ -21,13 +21,13 @@
 	<Property Name="varPersistentID:{A994EC4A-2CC4-4404-8878-C31FE2F4B693}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Velocity Damping</Property>
 	<Property Name="varPersistentID:{AFBC471F-66A8-42E4-85A9-BD1C5DED7D9E}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Right Velocity</Property>
 	<Property Name="varPersistentID:{B18FB95E-F78C-4401-B347-70FFE2EF7943}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Virtual Spring</Property>
+	<Property Name="varPersistentID:{B40B8720-6D62-434F-A58D-CD017F7AC2E3}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Ellipse Length</Property>
 	<Property Name="varPersistentID:{B5A40631-18C5-4F5A-922E-A5DFF3A1E62E}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod7/Top Velocity</Property>
 	<Property Name="varPersistentID:{B713A66C-7FFE-4BD5-9BB6-5FBE88F1F7F9}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Left Position</Property>
 	<Property Name="varPersistentID:{B7520496-3A22-456D-9403-78F097FDAE45}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/RBF Weights</Property>
 	<Property Name="varPersistentID:{BF6DDFAA-D921-47CA-A322-63CAB3762201}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Reference Position</Property>
 	<Property Name="varPersistentID:{D6380386-0FE7-47AC-B595-96D9B2DB61C4}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Motors Configuration</Property>
 	<Property Name="varPersistentID:{D796AD4A-5ED8-4343-9E42-28CB8C7C9350}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Manual Control?</Property>
-	<Property Name="varPersistentID:{DA8FB39B-BD1D-4ADC-9F2E-3CC61416BC03}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Output (mm)</Property>
 	<Property Name="varPersistentID:{DDCB50FD-700A-4AA5-93A4-09A9F272EBC2}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Right Position</Property>
 	<Property Name="varPersistentID:{E4B1BB39-9551-47F6-B9EC-6FAF254CA2AE}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Trajectory Trigger</Property>
 	<Property Name="varPersistentID:{E6C424D3-8FE8-44F6-A446-7DD887591E84}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Motors Speed</Property>
@@ -45,13 +45,16 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Host Sub" Type="Folder">
+			<Item Name="Reference Path.vi" Type="VI" URL="../Target cRIO/Reference Path.vi"/>
+			<Item Name="ROS2 Read.vi" Type="VI" URL="../Host PC/ROS2 Read.vi"/>
+			<Item Name="ROS2 Close.vi" Type="VI" URL="../Host PC/ROS2 Close.vi"/>
+			<Item Name="ROS2 Write.vi" Type="VI" URL="../Host PC/ROS2 Write.vi"/>
+			<Item Name="ROS2 Start.vi" Type="VI" URL="../Host PC/ROS2 Start.vi"/>
+			<Item Name="Forward Dynamics.vi" Type="VI" URL="../Target cRIO/Forward Dynamics.vi"/>
+		</Item>
 		<Item Name="Host main.vi" Type="VI" URL="../Host PC/Host main.vi"/>
-		<Item Name="Circular Path.vi" Type="VI" URL="../Target cRIO/Circular Path.vi"/>
-		<Item Name="ROS2 Read.vi" Type="VI" URL="../Host PC/ROS2 Read.vi"/>
-		<Item Name="ROS2 Close.vi" Type="VI" URL="../Host PC/ROS2 Close.vi"/>
-		<Item Name="ROS2 Write.vi" Type="VI" URL="../Host PC/ROS2 Write.vi"/>
-		<Item Name="ROS2 Start.vi" Type="VI" URL="../Host PC/ROS2 Start.vi"/>
-		<Item Name="Forward Dynamics.vi" Type="VI" URL="../Target cRIO/Forward Dynamics.vi"/>
+		<Item Name="Controls and Indicators.vi" Type="VI" URL="../Host PC/Controls and Indicators.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="rtilvdds.dll" Type="Document" URL="/&lt;vilib&gt;/_RTI DDS Toolkit_internal_deps/rtilvdds.dll"/>
@@ -62,10 +65,11 @@
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_AALBLAS.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBLAS.lvlib"/>
 			</Item>
-			<Item Name="RBF Graph.vi" Type="VI" URL="../Target cRIO/RBF Graph.vi"/>
 			<Item Name="Exclude Zero Noise.vi" Type="VI" URL="../Target cRIO/Exclude Zero Noise.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
+			<Item Name="Theta to X,Y.vi" Type="VI" URL="../Target cRIO/Theta to X,Y.vi"/>
+			<Item Name="RBF Graph.vi" Type="VI" URL="../Target cRIO/RBF Graph.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -149,6 +153,27 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Target Sub" Type="Folder">
+			<Item Name="Analogue Read.vi" Type="VI" URL="../Target cRIO/Analogue Read.vi"/>
+			<Item Name="Bi Directional Trajectory.vi" Type="VI" URL="../Target cRIO/Bi Directional Trajectory.vi"/>
+			<Item Name="dt to f.vi" Type="VI" URL="../Target cRIO/dt to f.vi"/>
+			<Item Name="Encoder.vi" Type="VI" URL="../Target cRIO/Encoder.vi"/>
+			<Item Name="Inverse Dynamics.vi" Type="VI" URL="../Target cRIO/Inverse Dynamics.vi"/>
+			<Item Name="Jacobian.vi" Type="VI" URL="../Target cRIO/Jacobian.vi"/>
+			<Item Name="Minimum Jerk Trajectory.vi" Type="VI" URL="../Target cRIO/Minimum Jerk Trajectory.vi"/>
+			<Item Name="Phi.vi" Type="VI" URL="../Target cRIO/Phi.vi"/>
+			<Item Name="RBF Graph.vi" Type="VI" URL="../Target cRIO/RBF Graph.vi"/>
+			<Item Name="Exclude Zero Noise.vi" Type="VI" URL="../Target cRIO/Exclude Zero Noise.vi"/>
+			<Item Name="Reference Circle.vi" Type="VI" URL="../Target cRIO/Reference Circle.vi"/>
+			<Item Name="Tension Control.vi" Type="VI" URL="../Target cRIO/Tension Control.vi"/>
+			<Item Name="Quadratic Programming.vi" Type="VI" URL="../Target cRIO/Quadratic Programming.vi"/>
+			<Item Name="Virtual Spring.vi" Type="VI" URL="../Target cRIO/Virtual Spring.vi"/>
+			<Item Name="Foward Kinematics.vi" Type="VI" URL="../Target cRIO/Foward Kinematics.vi"/>
+			<Item Name="Encoder Test.vi" Type="VI" URL="../Target cRIO/dev/Encoder Test.vi"/>
+			<Item Name="Phase to Position.vi" Type="VI" URL="../Target cRIO/Phase to Position.vi"/>
+			<Item Name="Theta to X,Y.vi" Type="VI" URL="../Target cRIO/Theta to X,Y.vi"/>
+		</Item>
+		<Item Name="Target Main.vi" Type="VI" URL="../Target cRIO/Target Main.vi"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -654,24 +679,6 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="Shared Variables.lvlib" Type="Library" URL="../Shared Variables.lvlib"/>
-		<Item Name="Analogue Read.vi" Type="VI" URL="../Target cRIO/Analogue Read.vi"/>
-		<Item Name="Bi Directional Trajectory.vi" Type="VI" URL="../Target cRIO/Bi Directional Trajectory.vi"/>
-		<Item Name="dt to f.vi" Type="VI" URL="../Target cRIO/dt to f.vi"/>
-		<Item Name="Encoder.vi" Type="VI" URL="../Target cRIO/Encoder.vi"/>
-		<Item Name="Inverse Dynamics.vi" Type="VI" URL="../Target cRIO/Inverse Dynamics.vi"/>
-		<Item Name="Jacobian.vi" Type="VI" URL="../Target cRIO/Jacobian.vi"/>
-		<Item Name="Target Main.vi" Type="VI" URL="../Target cRIO/Target Main.vi"/>
-		<Item Name="Minimum Jerk Trajectory.vi" Type="VI" URL="../Target cRIO/Minimum Jerk Trajectory.vi"/>
-		<Item Name="Phi.vi" Type="VI" URL="../Target cRIO/Phi.vi"/>
-		<Item Name="RBF Graph.vi" Type="VI" URL="../Target cRIO/RBF Graph.vi"/>
-		<Item Name="Exclude Zero Noise.vi" Type="VI" URL="../Target cRIO/Exclude Zero Noise.vi"/>
-		<Item Name="Reference Circle.vi" Type="VI" URL="../Target cRIO/Reference Circle.vi"/>
-		<Item Name="Tension Control.vi" Type="VI" URL="../Target cRIO/Tension Control.vi"/>
-		<Item Name="Quadratic Programming.vi" Type="VI" URL="../Target cRIO/Quadratic Programming.vi"/>
-		<Item Name="Virtual Spring.vi" Type="VI" URL="../Target cRIO/Virtual Spring.vi"/>
-		<Item Name="Foward Kinematics.vi" Type="VI" URL="../Target cRIO/Foward Kinematics.vi"/>
-		<Item Name="Encoder Test.vi" Type="VI" URL="../Target cRIO/dev/Encoder Test.vi"/>
-		<Item Name="Phase to Position.vi" Type="VI" URL="../Target cRIO/Phase to Position.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
