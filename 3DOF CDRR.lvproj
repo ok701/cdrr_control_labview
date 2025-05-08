@@ -29,7 +29,7 @@
 	<Property Name="varPersistentID:{D6380386-0FE7-47AC-B595-96D9B2DB61C4}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Motors Configuration</Property>
 	<Property Name="varPersistentID:{D796AD4A-5ED8-4343-9E42-28CB8C7C9350}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Manual Control?</Property>
 	<Property Name="varPersistentID:{DDCB50FD-700A-4AA5-93A4-09A9F272EBC2}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Right Position</Property>
-	<Property Name="varPersistentID:{E3793B0F-989A-4843-8DE0-BDD1E6DA0B8A}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Untitled Library 3.lvlib/Start, End Point</Property>
+	<Property Name="varPersistentID:{E3793B0F-989A-4843-8DE0-BDD1E6DA0B8A}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Start, End Point</Property>
 	<Property Name="varPersistentID:{E4B1BB39-9551-47F6-B9EC-6FAF254CA2AE}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Trajectory Trigger</Property>
 	<Property Name="varPersistentID:{E6C424D3-8FE8-44F6-A446-7DD887591E84}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Motors Speed</Property>
 	<Property Name="varPersistentID:{EC508847-2660-4A59-9128-02EE52D9B0D2}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Jacobian</Property>
@@ -67,7 +67,6 @@
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_AALBLAS.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBLAS.lvlib"/>
 			</Item>
-			<Item Name="Exclude Zero Noise.vi" Type="VI" URL="../Target cRIO/Exclude Zero Noise.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="Theta to X,Y.vi" Type="VI" URL="../Target cRIO/Theta to X,Y.vi"/>
@@ -174,6 +173,15 @@ AddOutputFilter chunkFilter
 			<Item Name="Encoder Test.vi" Type="VI" URL="../Target cRIO/dev/Encoder Test.vi"/>
 			<Item Name="Phase to Position.vi" Type="VI" URL="../Target cRIO/Phase to Position.vi"/>
 			<Item Name="Theta to X,Y.vi" Type="VI" URL="../Target cRIO/Theta to X,Y.vi"/>
+			<Item Name="Path Tuning.vi" Type="VI" URL="../Host PC/Path Tuning.vi"/>
+			<Item Name="Variables Read for Position Control.vi" Type="VI" URL="../Target cRIO/Variables Read for Position Control.vi"/>
+			<Item Name="Variables Write for Position Control.vi" Type="VI" URL="../Target cRIO/Variables Write for Position Control.vi"/>
+			<Item Name="Reference Trajectory.vi" Type="VI" URL="../Target cRIO/Reference Trajectory.vi"/>
+			<Item Name="Tension Solver.vi" Type="VI" URL="../Target cRIO/Tension Solver.vi"/>
+			<Item Name="Measured Phase.vi" Type="VI" URL="../Target cRIO/Measured Phase.vi"/>
+			<Item Name="Variables Read for Tension Control.vi" Type="VI" URL="../Target cRIO/Variables Read for Tension Control.vi"/>
+			<Item Name="Spring Length.vi" Type="VI" URL="../Target cRIO/Spring Length.vi"/>
+			<Item Name="Variables Write for Tension Control.vi" Type="VI" URL="../Target cRIO/Variables Write for Tension Control.vi"/>
 		</Item>
 		<Item Name="Target Main.vi" Type="VI" URL="../Target cRIO/Target Main.vi"/>
 		<Item Name="Chassis" Type="cRIO Chassis">
@@ -681,16 +689,6 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="Shared Variables.lvlib" Type="Library" URL="../Shared Variables.lvlib"/>
-		<Item Name="Untitled Library 3.lvlib" Type="Library" URL="../Host PC/Untitled Library 3.lvlib"/>
-		<Item Name="Path Tuning.vi" Type="VI" URL="../Host PC/Path Tuning.vi"/>
-		<Item Name="Variables Read for Position Control.vi" Type="VI" URL="../Target cRIO/Variables Read for Position Control.vi"/>
-		<Item Name="Variables Write for Position Control.vi" Type="VI" URL="../Target cRIO/Variables Write for Position Control.vi"/>
-		<Item Name="Reference Trajectory.vi" Type="VI" URL="../Target cRIO/Reference Trajectory.vi"/>
-		<Item Name="Tension Solver.vi" Type="VI" URL="../Target cRIO/Tension Solver.vi"/>
-		<Item Name="Measured Phase.vi" Type="VI" URL="../Target cRIO/Measured Phase.vi"/>
-		<Item Name="Variables Read for Tension Control.vi" Type="VI" URL="../Target cRIO/Variables Read for Tension Control.vi"/>
-		<Item Name="Spring Length.vi" Type="VI" URL="../Target cRIO/Spring Length.vi"/>
-		<Item Name="Variables Write for Tension Control.vi" Type="VI" URL="../Target cRIO/Variables Write for Tension Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
@@ -935,7 +933,7 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Cable Length.vi" Type="VI" URL="../Target cRIO/Cable Length.vi"/>
+			<Item Name="Data Initialize.vi" Type="VI" URL="../Target cRIO/Data Initialize.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
