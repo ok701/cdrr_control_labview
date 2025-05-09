@@ -10,6 +10,7 @@
 	<Property Name="varPersistentID:{4FA5AC3D-70B3-4231-AB7C-309A8B635C53}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Manual Virtual Spring</Property>
 	<Property Name="varPersistentID:{57176E4A-BBDF-4966-8DFB-E2E7E1A24F3E}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Tension Control On</Property>
 	<Property Name="varPersistentID:{57B64D17-6E02-46F5-8F0B-1062B4CB1CED}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Simulation On</Property>
+	<Property Name="varPersistentID:{5D45126E-F7E0-46A4-838A-88E52CE7B36C}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Untitled Library 1.lvlib/Record Start</Property>
 	<Property Name="varPersistentID:{5F717E51-D586-40DD-B30B-88783015A5B5}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Left Velocity</Property>
 	<Property Name="varPersistentID:{751FC19A-9699-45B4-8193-6E344AA1C53D}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Reference Tension</Property>
 	<Property Name="varPersistentID:{761A7222-39B9-492A-865D-3EBED8F9725F}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Simulated Position</Property>
@@ -689,6 +690,16 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="Shared Variables.lvlib" Type="Library" URL="../Shared Variables.lvlib"/>
+		<Item Name="ProjectDigitalInTask" Type="NI-DAQmx Task">
+			<Property Name="\0\ChanType" Type="Str">Digital Input</Property>
+			<Property Name="\0\DI.InvertLines" Type="Str">0</Property>
+			<Property Name="\0\Name" Type="Str">ProjectDigitalInTask/DigitalIn</Property>
+			<Property Name="\0\PhysicalChanName" Type="Str">Mod5/port0/line1</Property>
+			<Property Name="Channels" Type="Str">ProjectDigitalInTask/DigitalIn</Property>
+			<Property Name="Name" Type="Str">ProjectDigitalInTask</Property>
+			<Property Name="SampTimingType" Type="Str">On Demand</Property>
+		</Item>
+		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Target cRIO/Untitled Library 1.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
