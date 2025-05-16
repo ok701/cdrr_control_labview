@@ -1,41 +1,43 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="21008000">
-	<Property Name="varPersistentID:{0F621EA9-51A7-49ED-8ADD-2D6F99331FF8}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/RBFN Virtual Spring</Property>
 	<Property Name="varPersistentID:{1DAD384C-2917-4745-9A5A-DFEA6D208F91}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod7/Position1</Property>
 	<Property Name="varPersistentID:{27F4B378-2722-4DF3-8F9A-6157A4ED4D50}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Host Running?</Property>
 	<Property Name="varPersistentID:{2C08CEEB-F27D-4A54-BCEF-F4BB4D54D8AD}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Manual Control</Property>
+	<Property Name="varPersistentID:{30DB1B07-B086-48BE-B824-D70A8F4D8A07}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Cable Length</Property>
 	<Property Name="varPersistentID:{34E04900-FE00-435F-8B59-879C6F73AD9F}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Measured Tension</Property>
 	<Property Name="varPersistentID:{39632A55-D049-4461-9418-F5647C23E90D}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Encoder Initialize</Property>
-	<Property Name="varPersistentID:{461832BE-8200-4E2C-B493-E2C7F068A516}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Cable Length</Property>
-	<Property Name="varPersistentID:{4FA5AC3D-70B3-4231-AB7C-309A8B635C53}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Manual Virtual Spring</Property>
 	<Property Name="varPersistentID:{57176E4A-BBDF-4966-8DFB-E2E7E1A24F3E}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Tension Control On</Property>
 	<Property Name="varPersistentID:{57B64D17-6E02-46F5-8F0B-1062B4CB1CED}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Simulation On</Property>
-	<Property Name="varPersistentID:{5D45126E-F7E0-46A4-838A-88E52CE7B36C}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Untitled Library 1.lvlib/Record Start</Property>
 	<Property Name="varPersistentID:{5F717E51-D586-40DD-B30B-88783015A5B5}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Left Velocity</Property>
+	<Property Name="varPersistentID:{6276579A-EC71-4584-B4B4-8B50FD5AA6C6}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/RBF Weights</Property>
+	<Property Name="varPersistentID:{6E2A9336-86B4-40A2-9244-22790D8F7A57}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Motors Speed</Property>
 	<Property Name="varPersistentID:{751FC19A-9699-45B4-8193-6E344AA1C53D}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Reference Tension</Property>
+	<Property Name="varPersistentID:{75F25E7B-5BF9-4427-AA58-0C482B1FBE42}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Untitled Library f3.lvlib/Velocity Damping Weights</Property>
 	<Property Name="varPersistentID:{761A7222-39B9-492A-865D-3EBED8F9725F}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Simulated Position</Property>
+	<Property Name="varPersistentID:{85BCE421-E7F9-4EE5-9470-763544FE837F}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/RBFN Virtual Spring</Property>
+	<Property Name="varPersistentID:{8BEF18C8-F5FA-4986-88F7-CAA5C8246451}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Untitled Library 1.lvlib/Virtual Spring Weights</Property>
 	<Property Name="varPersistentID:{9249B99C-39DD-477D-99B8-38409F2F3E41}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod7/Top Position</Property>
 	<Property Name="varPersistentID:{9354E154-5C0B-4C99-8AAA-A3B1770EF4F9}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Measured Position</Property>
 	<Property Name="varPersistentID:{974379C0-E309-4759-844D-DCF575803B85}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod7/Velocity1</Property>
 	<Property Name="varPersistentID:{A06F712C-29D1-40A8-BFEA-C8D498CCF937}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Measured Phase</Property>
 	<Property Name="varPersistentID:{A674D145-4CBC-46A6-A2A7-E105E422648C}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Target Stop</Property>
-	<Property Name="varPersistentID:{A994EC4A-2CC4-4404-8878-C31FE2F4B693}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Velocity Damping</Property>
 	<Property Name="varPersistentID:{AFBC471F-66A8-42E4-85A9-BD1C5DED7D9E}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Right Velocity</Property>
-	<Property Name="varPersistentID:{B18FB95E-F78C-4401-B347-70FFE2EF7943}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Virtual Spring</Property>
 	<Property Name="varPersistentID:{B40B8720-6D62-434F-A58D-CD017F7AC2E3}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Ellipse Length</Property>
 	<Property Name="varPersistentID:{B5A40631-18C5-4F5A-922E-A5DFF3A1E62E}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod7/Top Velocity</Property>
 	<Property Name="varPersistentID:{B713A66C-7FFE-4BD5-9BB6-5FBE88F1F7F9}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Left Position</Property>
-	<Property Name="varPersistentID:{B7520496-3A22-456D-9403-78F097FDAE45}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/RBF Weights</Property>
+	<Property Name="varPersistentID:{BF114173-493F-42A1-A83F-F7718F6E68EA}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Virtual Spring</Property>
 	<Property Name="varPersistentID:{BF6DDFAA-D921-47CA-A322-63CAB3762201}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Reference Position</Property>
+	<Property Name="varPersistentID:{D17C56A3-E96F-4D8D-84CE-B65FE817B65B}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Velocity Damping</Property>
 	<Property Name="varPersistentID:{D6380386-0FE7-47AC-B595-96D9B2DB61C4}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Motors Configuration</Property>
+	<Property Name="varPersistentID:{D6A1DAAD-934A-4A5A-A2AB-53B8A62A3F93}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Manual Virtual Spring</Property>
 	<Property Name="varPersistentID:{D796AD4A-5ED8-4343-9E42-28CB8C7C9350}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Manual Control?</Property>
 	<Property Name="varPersistentID:{DDCB50FD-700A-4AA5-93A4-09A9F272EBC2}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod8/Right Position</Property>
 	<Property Name="varPersistentID:{E3793B0F-989A-4843-8DE0-BDD1E6DA0B8A}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Start, End Point</Property>
 	<Property Name="varPersistentID:{E4B1BB39-9551-47F6-B9EC-6FAF254CA2AE}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Trajectory Trigger</Property>
-	<Property Name="varPersistentID:{E6C424D3-8FE8-44F6-A446-7DD887591E84}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Motors Speed</Property>
 	<Property Name="varPersistentID:{EC508847-2660-4A59-9128-02EE52D9B0D2}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Jacobian</Property>
 	<Property Name="varPersistentID:{F0DED3BB-8178-49C7-8EF8-6F610AB6F691}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Motors Enable</Property>
 	<Property Name="varPersistentID:{F3EB0F2C-C4CF-4637-91AE-450E245A061F}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Reference Phase</Property>
+	<Property Name="varPersistentID:{F75B52DB-C3BA-4F5B-8787-8C094F17CE75}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Untitled Library 4.lvlib/Measured Cable Length</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -56,8 +58,13 @@
 			<Item Name="Forward Dynamics.vi" Type="VI" URL="../Target cRIO/Forward Dynamics.vi"/>
 		</Item>
 		<Item Name="Host main.vi" Type="VI" URL="../Host PC/Host main.vi"/>
-		<Item Name="Controls and Indicators.vi" Type="VI" URL="../Host PC/Controls and Indicators.vi"/>
+		<Item Name="Write Variables for Control.vi" Type="VI" URL="../Host PC/Write Variables for Control.vi"/>
 		<Item Name="Read Variables.vi" Type="VI" URL="../Host PC/Read Variables.vi"/>
+		<Item Name="Caculate Force.vi" Type="VI" URL="../Host PC/Caculate Force.vi"/>
+		<Item Name="Cable Length Plot.vi" Type="VI" URL="../Host PC/Cable Length Plot.vi"/>
+		<Item Name="Position Plot.vi" Type="VI" URL="../Host PC/Position Plot.vi"/>
+		<Item Name="Data to Plot.vi" Type="VI" URL="../Host PC/Data to Plot.vi"/>
+		<Item Name="Datas to Plot.vi" Type="VI" URL="../Host PC/Datas to Plot.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="rtilvdds.dll" Type="Document" URL="/&lt;vilib&gt;/_RTI DDS Toolkit_internal_deps/rtilvdds.dll"/>
@@ -67,11 +74,17 @@
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_AALBLAS.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBLAS.lvlib"/>
+				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
+				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="Theta to X,Y.vi" Type="VI" URL="../Target cRIO/Theta to X,Y.vi"/>
 			<Item Name="RBF Graph.vi" Type="VI" URL="../Target cRIO/RBF Graph.vi"/>
+			<Item Name="Reference Trajectory.vi" Type="VI" URL="../Target cRIO/Reference Trajectory.vi"/>
+			<Item Name="Bi Directional Trajectory.vi" Type="VI" URL="../Target cRIO/Bi Directional Trajectory.vi"/>
+			<Item Name="Minimum Jerk Trajectory.vi" Type="VI" URL="../Target cRIO/Minimum Jerk Trajectory.vi"/>
+			<Item Name="dt to f.vi" Type="VI" URL="../Target cRIO/dt to f.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -699,7 +712,9 @@ AddOutputFilter chunkFilter
 			<Property Name="Name" Type="Str">ProjectDigitalInTask</Property>
 			<Property Name="SampTimingType" Type="Str">On Demand</Property>
 		</Item>
-		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Target cRIO/Untitled Library 1.lvlib"/>
+		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Host PC/Untitled Library 1.lvlib"/>
+		<Item Name="Untitled Library f3.lvlib" Type="Library" URL="../Host PC/Untitled Library f3.lvlib"/>
+		<Item Name="Untitled Library 4.lvlib" Type="Library" URL="../Host PC/Untitled Library 4.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>

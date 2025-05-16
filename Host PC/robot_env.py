@@ -4,8 +4,8 @@ time_index = 0
 current_pos = np.array([0.0, 0.0])  
 current_vel = np.array([0.0, 0.0])   
 
-m = 1
-b = 10
+m = 10
+b = 50
 T_min = 0.0
 T_max = 100.0
 motor_pos = np.array([[-1.210, -0.505],
