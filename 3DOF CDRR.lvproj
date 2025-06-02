@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="21008000">
+	<Property Name="varPersistentID:{04D756BF-6ED1-440E-95E0-5463716C7DAB}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Untitled Library 13.lvlib/EMG Record</Property>
 	<Property Name="varPersistentID:{1DAD384C-2917-4745-9A5A-DFEA6D208F91}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Chassis/Real-Time Scan Resources/Mod7/Position1</Property>
 	<Property Name="varPersistentID:{27F4B378-2722-4DF3-8F9A-6157A4ED4D50}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Host Running?</Property>
 	<Property Name="varPersistentID:{2C08CEEB-F27D-4A54-BCEF-F4BB4D54D8AD}" Type="Ref">/NI-cRIO-9047-01E2E2FC/Shared Variables.lvlib/Manual Control</Property>
@@ -715,6 +716,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Host PC/Untitled Library 1.lvlib"/>
 		<Item Name="Untitled Library f3.lvlib" Type="Library" URL="../Host PC/Untitled Library f3.lvlib"/>
 		<Item Name="Untitled Library 4.lvlib" Type="Library" URL="../Host PC/Untitled Library 4.lvlib"/>
+		<Item Name="Untitled Library 13.lvlib" Type="Library" URL="../Host PC/Untitled Library 13.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
