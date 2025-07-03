@@ -717,6 +717,8 @@ AddOutputFilter chunkFilter
 		<Item Name="Untitled Library f3.lvlib" Type="Library" URL="../Host PC/Untitled Library f3.lvlib"/>
 		<Item Name="Untitled Library 4.lvlib" Type="Library" URL="../Host PC/Untitled Library 4.lvlib"/>
 		<Item Name="Untitled Library 13.lvlib" Type="Library" URL="../Host PC/Untitled Library 13.lvlib"/>
+		<Item Name="Gradient Update.vi" Type="VI" URL="../Target cRIO/Gradient Update.vi"/>
+		<Item Name="Regularisation.vi" Type="VI" URL="../Target cRIO/Regularisation.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
