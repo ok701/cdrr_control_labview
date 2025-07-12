@@ -2,13 +2,11 @@
 
 For full technical details and experimental results, please refer to the complete thesis [here](./GIST_Dissertation.pdf).
 
----
 
 ## Overview
 
 This project presents an **Adaptive Impedance Control Strategy** for an upper-limb **Cable-Driven Rehabilitation Robot (CDRR)**. The controller combines assistive and resistive behaviors using a novel *Assist-Resist Adaptive Control (ARAC)* algorithm, dynamically adjusting stiffness and damping in real-time based on user performance. The system aims to deliver personalized, phase-specific rehabilitation for bedridden patients with upper limb impairments.
 
----
 
 ## Key Features
 
@@ -17,8 +15,6 @@ This project presents an **Adaptive Impedance Control Strategy** for an upper-li
 - Phase-specific impedance modulation within a single movement cycle
 - Custom-built 3-DOF planar CDRR with real-time force sensing
 - Real-time control architecture using NI CompactRIO and LabVIEW GUI
-
----
 
 ## System Architecture
 
@@ -30,7 +26,6 @@ This project presents an **Adaptive Impedance Control Strategy** for an upper-li
   - Mid-Level: Kinematics and force distribution at 100 Hz  
   - High-Level: Adaptive impedance learning at 50 Hz  
 
----
 
 ## Experimental Validation
 
