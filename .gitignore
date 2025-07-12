@@ -1,0 +1,14 @@
+# LabVIEW specific
+backup/
+*.aliases
+*.lvlps
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Compiled Binaries
+*.exe
+*.viobj
+*.lvbitx
+*.lvb
